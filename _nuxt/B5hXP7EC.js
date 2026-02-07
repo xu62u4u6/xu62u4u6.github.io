@@ -1,0 +1,1 @@
+const o={region:"TAIWAN (TW)",status:"OPEN_TO_SIDE_PROJECTS",timezone:"GMT+8",latLong:"23.6978° N, 120.9605° E"},e=[{label:"blue@example.com",url:"mailto:blue@example.com",icon:"mail"}],t=[{name:"GitHub",sub:"CODE_REPO",url:"https://github.com/xu62u4u6",color:"green"},{name:"LinkedIn",sub:"PRO_NET",url:"#",color:"blue"}],c={coordinates:o,directLinks:e,socials:t};export{c};
