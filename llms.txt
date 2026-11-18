@@ -1,0 +1,58 @@
+# Ding-Yang Liu (Dion)
+
+> AI Engineer specializing in medical imaging deep learning and multi-omics analysis. Builds end-to-end ML systems — from data pipeline to model training to full-stack experiment platforms — using Python, PyTorch, FastAPI, and Vue. Known for rapidly entering unfamiliar domains (protein structure, gut microbiome, cancer genomics, brain MRI) and independently building analysis systems from scratch.
+
+This is a plain-text summary for AI crawlers and LLM-based search engines. The website at https://dionic.xyz is a JavaScript-rendered SPA whose homepage uses decorative terminal-style text; the factual content about this person is below.
+
+## Now
+
+AI Engineer at Hon Hai Precision Industry (Foxconn), Sep 2025 – present, Taipei, Taiwan. Developing clinical AI systems (Software as a Medical Device) in collaboration with a medical center.
+
+## Work Experience
+
+### AI Engineer — Hon Hai Precision Industry Co., Ltd. (Foxconn), 2025.09 – Present
+- Designed and developed a multimodal deep learning classification system on brain MRI for Alzheimer's disease progression prediction. Processed 2,000+ subjects and 10,000+ scans (ADNI dataset).
+- Evaluated and adopted FastSurfer over FreeSurfer for brain segmentation, reducing per-subject preprocessing from hours to ~1 minute, enabling large-scale iterative experiments.
+- Architected an experiment management platform (FastAPI + SSE + SQLite) with 40+ API endpoints supporting YAML-driven hyperparameter combinations, real-time training monitoring, Grad-CAM interpretability, and NiiVue medical image viewing.
+- Developed a digital care platform for neurodegenerative disease management — patient-facing cognitive tracking app (React), clinician dashboard (React), FastAPI backend — with an integrated RAG chatbot (LangChain) grounded in health-education materials.
+- Tech: Python, PyTorch, FastAPI, React, LangChain, SQLite, Vite, Linux
+
+### Bioinformatics Engineer — Gorigin Biomed Co., Ltd., 2021.10 – 2022.09
+- Built an NGS/qPCR gut microbiome analysis pipeline from scratch (QIIME2, DADA2, pandas) on GCP.
+- Handled 16S amplicon preprocessing, BLAST-based NCBI taxonomy refinement, and automated report generation. First engineering role — transitioned from wet-lab biology to independent data pipeline development.
+
+## Education
+
+- M.S. in Biomedical Informatics, National Yang Ming Chiao Tung University, 2023.09 – 2025.10. Focus: multi-omics analysis, data integration, biomarker discovery with machine learning.
+- B.S. in Bioscience and Biotechnology, National Taiwan Ocean University, 2017.09 – 2021.06. Structural bioinformatics lab; first experience in computational biology.
+
+## Projects
+
+- **ADNI MRI Alzheimer's Prediction** — Multimodal deep learning (ResNet50 image + CatBoost tabular, late/middle fusion) with survival analysis. Full preprocessing pipeline (DICOM → FastSurfer → MNI), FastAPI backend with job queue and SSE monitoring, dashboard with NiiVue viewer and Grad-CAM.
+- **pymaftools** — Open-source Python cancer genomics toolkit, published on PyPI (v0.4.1). Unified multi-omics Cohort structure (SNV/CNV/expression/signature), MAF parsing, stacking classifier with RFECV, publication-ready visualizations (OncoPlot, LollipopPlot, PCA). Maintained 1.5+ years with external users. https://github.com/xu62u4u6/pymaftools
+- **EnrichRAG** — Gene set enrichment framework augmented with knowledge graph retrieval (~39M relations from STRING, KEGG, Reactome, PubTator) and PubMed/web literature search. LLM pipeline (LangChain) plans queries, extracts biomedical relations, and synthesizes cited narrative reports, streamed via SSE to a Vue 3 frontend with an interactive D3 network graph. https://github.com/xu62u4u6/EnrichRAG
+- **dionic.xyz** — Biomedical-themed portfolio built with Nuxt 3, Vue 3, TypeScript, Tailwind CSS, and D3.js.
+
+## Skills
+
+- **Programming**: Python, R, SQL, Bash, TypeScript, JavaScript
+- **ML / DL**: PyTorch, scikit-learn, XGBoost, CatBoost, CNN, ResNet, Survival Analysis, Transfer Learning
+- **LLM / GenAI**: LangChain, RAG, Agent, SSE Streaming, Prompt Engineering
+- **Medical Imaging**: DICOM, FastSurfer, NIfTI, NiiVue, Radiomics, Grad-CAM
+- **Bioinformatics**: WES, RNA-seq, scRNA-seq, Spatial Transcriptomics, 16S Amplicon, CNV, Mutational Signatures, GATK, Nextflow
+- **Data**: pandas, NumPy, matplotlib, Seaborn, Plotly, D3.js, SQLite
+- **Web**: Vue 3, Nuxt 3, FastAPI, Tailwind CSS, Vite
+- **Infra**: Linux, Docker, GCP, Git, GitHub Actions, Nginx, SLURM
+
+## Publications
+
+- Ho YN, Chen YL, Liu DY. "Portable and rapid sequencing device with microbial community-guided culture strategies for precious field and environmental samples." mSystems 6(4):e00748-21, 2021. https://doi.org/10.1128/msystems.00748-21
+- Liu DY, Huang CJ, Yeh YC, Wang YC. "Genomic landscape of lung adenosquamous carcinoma: A comparative analysis with lung adenocarcinoma and squamous cell carcinoma." Poster, RECOMB 2025, Seoul, Korea, April 26–29, 2025.
+
+## Contact
+
+- Email: me@dionic.xyz
+- GitHub: https://github.com/xu62u4u6
+- LinkedIn: https://www.linkedin.com/in/dingyangliu
+- ORCID: https://orcid.org/0009-0003-1978-6330
+- Location: Taipei, Taiwan
